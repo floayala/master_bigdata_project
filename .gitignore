@@ -1,0 +1,35 @@
+# Ignore everything in parent directories
+../../*
+
+# Allow specific directories
+!/NoSql/
+!/Python/
+!/Tableau/
+
+# Ignore common system and personal files
+*.lnk
+*.tmp
+*.log
+*.bak
+~*
+*.ini
+
+# Ignore IDE and environment-specific files
+.vscode/
+.idea/
+.env/
+.ipynb_checkpoints/
+node_modules/
+.DS_Store
+
+# Ignore system directories and configs
+.AppData/
+.Documents/
+.Downloads/
+.Favorites/
+.Music/
+.Pictures/
+.Videos/
+.virtualenvs/
+.VM/
+
